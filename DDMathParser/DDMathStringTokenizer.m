@@ -118,10 +118,6 @@
     return self;
 }
 
-- (void)finalize {
-    free(_characters);
-    [super finalize];
-}
 
 - (void)dealloc {
     free(_characters);

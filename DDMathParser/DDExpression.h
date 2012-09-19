@@ -17,10 +17,10 @@ typedef enum {
 @class DDMathEvaluator, DDParser;
 
 @interface DDExpression : NSObject <NSCoding> {
-    DDExpression *_parentExpression;
+    DDExpression *__weak _parentExpression;
 }
 
-@property (nonatomic, readonly) DDExpression *parentExpression;
+@property (weak, nonatomic, readonly) DDExpression *parentExpression;
 
 + (id) expressionFromString:(NSString *)expressionString error:(NSError **)error;
 

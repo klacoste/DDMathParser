@@ -31,11 +31,11 @@ typedef enum {
 
 @property (nonatomic,readonly) NSString * token;
 @property (nonatomic,readonly) DDTokenType tokenType;
-@property (nonatomic,readonly) NSString *operatorType;
+@property (weak, nonatomic,readonly) NSString *operatorType;
 @property (nonatomic,readonly) DDOperatorArity operatorArity;
 @property (nonatomic,readonly) DDOperatorAssociativity operatorAssociativity;
 @property (nonatomic,readonly) NSInteger operatorPrecedence;
-@property (nonatomic,readonly) NSString *operatorFunction;
+@property (weak, nonatomic,readonly) NSString *operatorFunction;
 
 - (NSNumber *) numberValue;
 
