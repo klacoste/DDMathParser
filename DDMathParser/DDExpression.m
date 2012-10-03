@@ -38,8 +38,7 @@
 	return DD_AUTORELEASE([[_DDVariableExpression alloc] initWithVariable:variable]);
 }
 
-#pragma mark -
-#pragma mark Abstract method implementations
+#pragma mark - Abstract method implementations
 
 - (DDExpressionType) expressionType {
 	[NSException raise:NSInvalidArgumentException format:@"this method should be overridden: %@", NSStringFromSelector(_cmd)];
