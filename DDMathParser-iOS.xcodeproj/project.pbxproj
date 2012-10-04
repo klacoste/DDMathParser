@@ -320,10 +320,6 @@
 		1390C29216162758000781F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				DSTROOT = /tmp/DDMathParser_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-iOS-Prefix.pch";
@@ -336,10 +332,6 @@
 		1390C29316162758000781F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				DSTROOT = /tmp/DDMathParser_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-iOS-Prefix.pch";
