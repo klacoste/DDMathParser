@@ -282,7 +282,7 @@
 		13B392A31626144400D7C7C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "No Thirst Software LLC";
 			};
 			buildConfigurationList = 13B392A61626144400D7C7C0 /* Build configuration list for PBXProject "DDMathParser-Mac" */;
@@ -390,6 +390,7 @@
 		13B392BE1626144400D7C7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,6 +400,7 @@
 		13B392BF1626144400D7C7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-Mac-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
