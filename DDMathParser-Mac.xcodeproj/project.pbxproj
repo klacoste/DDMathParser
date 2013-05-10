@@ -395,6 +395,7 @@
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-Mac-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -406,6 +407,7 @@
 				GCC_PREFIX_HEADER = "Precompiled Headers/DDMathParser-Mac-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
